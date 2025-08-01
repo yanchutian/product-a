@@ -1,6 +1,8 @@
 options:
   logging: CLOUD_LOGGING_ONLY
 
+
+
 steps:
   - name: "ubuntu"
     entrypoint: "bash"
