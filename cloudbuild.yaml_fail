@@ -1,0 +1,11 @@
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+steps:
+  - name: "ubuntu"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        echo "This will fail"
+        exit 1
