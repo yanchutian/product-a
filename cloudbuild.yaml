@@ -7,6 +7,6 @@ steps:
     args:
       - "-c"
       - |
-        echo "This is a test build for product-a main branch"
-
+        echo "This will fail"
+        exit 1
 
