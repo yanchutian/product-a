@@ -1,4 +1,4 @@
-cp -rf cloudbuild.yaml_success cloudbuild.yaml
+cp -rf cloudbuild.yaml_fail cloudbuild.yaml
 echo "" >> cloudbuild.yaml
 git add .
 git commit -m "1"
